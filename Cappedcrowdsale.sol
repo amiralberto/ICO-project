@@ -21,7 +21,7 @@ contract CappedCrowdsale is Crowdsale {
     cap = _cap;
   }
 
-  **
+  /**
    * @dev Checks whether the cap has been reached.
    * @return Whether the cap was reached
    */
