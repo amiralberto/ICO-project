@@ -29,7 +29,7 @@ contract CappedCrowdsale is Crowdsale {
     return weiRaised >= cap;
   }
 
-  **
+  /**
    * @dev Extend parent behavior requiring purchase to respect the funding cap.\
    * @param _beneficiary Token purchaser\
    * @param _weiAmount Amount of wei contributed\
